@@ -15,9 +15,10 @@
 
 | До: исходный ценник | После: данные Home Assistant |
 |:---:|:---:|
-| ![Электронный ценник G-Tag](docs/images/project/original-tag.webp) | ![GTag Display с данными HA](docs/images/project/ha-display.webp) |
+| ![Электронный ценник G-Tag](docs/images/project/original-tag.webp) | ![GTag Display с данными HA](<img width="1280" height="576" alt="image" src="https://github.com/user-attachments/assets/d6007c36-5c6a-4bb9-911d-99c9e90b66ad" />
+) |
 
-[Задняя крышка для 3D-печати](https://www.thingiverse.com/thing:7411674).
+[Модель корпуса для 3D-печати](https://www.thingiverse.com/thing:7411674).
 
 ## Возможности
 
@@ -38,20 +39,14 @@
 1. **Подготовьте ценник и подключите плату.**
    [Подготовка экрана](docs/display-preparation.md) ·
    [GPIO nRF52840](docs/pin-remapping.md) ·
-   [ESP32-C3 и Wi-Fi](docs/esp32-wifi.md) ·
-   [D1 mini ESP8266 и Wi-Fi](docs/esp8266-wifi.md).
-2. **Установите GTag Display через HACS.** Добавьте
-   `https://github.com/lukdut/gtag-nrf-display` как репозиторий типа **Integration**,
-   скачайте интеграцию и перезапустите HA.
-   [Установка через HACS или вручную](docs/installation.md).
+2. **Установите GTag Display BLE.** Скачайте
+   `gtag_ble` и скопируйте в свою папку `custom_components`перезапустите HA.
+   [Установка вручную](docs/installation.md).
 3. **Настройте и прошейте плату.** Создайте YAML в
    [мастере GTag](docs/firmware-wizard.md) и импортируйте его в ESPHome Device Builder.
    [Сборка и прошивка](docs/esphome-flashing.md) ·
    [Полный пример конфигурации](docs/device-configuration.md).
-4. **Подключите устройство к HA.** Для Zigbee установите
-   [конвертер и добавьте экран через Zigbee2MQTT](docs/zigbee-home-assistant.md).
-   Для Bluetooth выберите обнаруженный GTag; Wi-Fi-плату сначала добавьте в ESPHome,
-   затем в GTag Display.
+4. **Подключите устройство к HA.** Для Bluetooth выберите обнаруженный GTag.
 5. **Выберите содержимое.** Откройте настройки GTag Display, выберите макет
    и сущности, проверьте предпросмотр и нажмите «Применить».
    [Настройка экранов](docs/screens.md).
