@@ -11,9 +11,7 @@
 | Плата | Связь | Питание |
 |---|---|---|
 | nRF52840 Pro Micro / Super Mini / nice!nano | Zigbee2MQTT или Bluetooth | Аккумулятор |
-| Super52840 | Zigbee2MQTT, отдельный профиль | Аккумулятор |
-| ESP32-C3 Super Mini | Wi-Fi через ESPHome | USB |
-| D1 mini ESP8266 (с 1.3.0, проверена на плате) | Wi-Fi через ESPHome | USB |
+
 
 | До: исходный ценник | После: данные Home Assistant |
 |:---:|:---:|
