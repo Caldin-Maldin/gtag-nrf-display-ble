@@ -18,7 +18,7 @@
 | ![Электронный ценник G-Tag](docs/images/project/original-tag.webp) | <img width="1280" height="576" alt="image" src="https://github.com/user-attachments/assets/d6007c36-5c6a-4bb9-911d-99c9e90b66ad" /> 
 
 
-[Модель корпуса для 3D-печати](https://www.thingiverse.com/thing:7411674).
+[Модель корпуса для 3D-печати]([https://www.printables.com/model/1900939-korpus-pod-ekran-tsennika-gtag-i-platy-nrf52]).
 
 ## Возможности
 
